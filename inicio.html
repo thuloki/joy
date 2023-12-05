@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/css.css" />
+  <link rel="shortcut icon" type="imagenes/png" href="Imagenes/DibujoLogo.png">
+  <title>Joy!</title>
+
+  <!-- CSS del Swipper -->
+  <link rel="stylesheet" href="CSS/swiper-bundle.min.css" />
+  <!-- Link Font Awesome -->
+  <script src="https://kit.fontawesome.com/d1cf2637cb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="inicio.html">
+        <img src="Imagenes/LOGO.png" class="logo" width="250px">
+      </a>
+    </div>
+    <div class="hamburguesa">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <nav class="nav-bar">
+      <ul>
+        <li>
+          <a href="Transloom.html"> Transloom </a>
+        </li>
+        <li>
+          <a href="KidsTest.html"> KidsTest </a>
+        </li>
+        <li>
+          <a href="MazeLearn.html"> MazeLearn </a>
+        </li>
+        <li>
+          <a href="Cognita.html"> Cognita </a>
+        </li>
+        <li>
+          <a href="Wordle.html"> Wordle </a>
+        </li>
+        <li>
+          <a href="Contacto.html" class="active"> Contacto </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- JavaScript del header -->
+  <script>
+    hamburguesa = document.querySelector(".hamburguesa");
+    hamburguesa.onclick = function () {
+      navBar = document.querySelector(".nav-bar");
+      navBar.classList.toggle("active");
+    }
+  </script>
+
+
+  <!-- BANNER FULL WIDTH -->
+  <section class="home">
+    <div class="home-text">
+      <h5>Vamos</h5>
+      <h1> A aprender <br> con Diversión</h1>
+      <p>Bienvenidos a nuestra apasionante empresa de aprendizaje para niños, donde cada día cultivamos la curiosidad y
+        fomentamos el amor por el conocimiento.
+        .</p>
+      <a href="#nosotros" class="btn"> Nosotros</a>
+    </div>
+  </section>
+
+  <!-- LOGO + ESLOGAN + ELEMENTOS VISUALES -->
+  <img class="bg" src="Imagenes/bg1.png" alt="">
+  <img class="bg-2" src="Imagenes/bg.png" alt="">
+  <main class="products">
+    <br>
+    <img class="textlogo" src="Imagenes/TextLogo.png" width="200px">
+    <p> ¡Descubre la felicidad a tráves del aprendizaje! </p>
+  </main>
+  <br>
+  <!-- SOBRE NOSOTROS -->
+  <section id="nosotros" class="nosotros2">
+    <div class="nosotros2-info container">
+      <div class="nosotros2-txt">
+        <h2> Nosotros </h2>
+        <p> En JOY creemos que el aprendizaje es la clave para desbloquear el potencial ilimitado.
+          Nuestra plataforma no solo ofrece conocimientos, sino que crea experiencias educativas significativas.
+          Únete a nosotros en este viaje educativo lleno de descubrimientos y diversión.
+          <br>
+          Nos enorgullece ofrecer un ambiente estimulante y seguro donde los pequeños exploradores pueden desarrollar
+          habilidades fundamentales a través de experiencias educativas innovadoras.
+
+        </p>
+      </div>
+      <div class="nosotros2-img">
+        <img src="Imagenes/Fondo4.png">
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <!-- INFORMACION ADICIONAL -->
+  <section class="nosotros">
+    <div class="nosotros-info container">
+      <div class="nosotros-img">
+        <img src="Imagenes/Historia.jpg">
+      </div>
+      <div class="nosotros-txt">
+        <h2> Historia </h2>
+        <p> Nuestra historia se remonta a los días en que éramos estudiantes de 6to Informática en el Colegio Pedro
+          Henriquez Ureña. 21 estudiantes, inquietos y conscientes de las deficiencias existentes en el sistema
+          educativo dominicano, decidimos tomar la iniciativa y emprender un proyecto que sirviera como apoyo y
+          complemento a la educación formal, abarcando todas las edades y materias.
+
+        </p>
+        <a href="#paquetes" class="btn-1"> Nuestros paquetes</a>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <!-- MISION, VISION Y VALORES -->
+  <section class="somos">
+    <div class="contenedor">
+      <figure>
+        <img src="Imagenes/1.png" alt="">
+        <div class="capa">
+          <h3>Misión</h3>
+          <p>inspirar y nutrir las mentes jóvenes a través de aplicaciones interactivas,
+            diseñadas para potenciar su curiosidad.
+          </p>
+        </div>
+      </figure>
+    </div>
+    <br>
+    <div class="contenedor">
+      <figure>
+        <img src="Imagenes/2.png" alt="">
+        <div class="capa">
+          <h3>Visión</h3>
+          <p>Ser el referente mundial en el ámbito de la educación infantil a través de la tecnología </p>
+        </div>
+      </figure>
+    </div>
+    <br>
+    <div class="contenedor">
+      <figure>
+        <img src="Imagenes/3.png" alt="">
+        <div class="capa">
+          <h3>Valores</h3>
+          <p> Respeto, curiosidad, Colaboracion, Creatividad y responsabilidad</p>
+        </div>
+      </figure>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <!-- NUESTRAS APLICACIONES -->
+  <div class="title">
+    <h2> Nuestras Aplicaciones!</h2>
+  </div>
+  <br>
+  <br>
+  <br>
+  <section class="feature">
+    <div class="feature-content">
+      <div class="row">
+        <div class="row-img">
+          <a href="Transloom.html">
+            <img src="Imagenes/Logo1.jpeg">
+          </a>
+        </div>
+        <h4> Transloom</h4>
+      </div>
+
+      <div class="row">
+        <div class="row-img">
+          <a href="KidsTest.html">
+            <img src="Imagenes/Logo2.png">
+          </a>
+        </div>
+        <h4> Kids Test </h4>
+      </div>
+
+      <div class="row">
+        <div class="row-img">
+          <a href="MazeLearn.html">
+            <img src="Imagenes/Logo3.png">
+          </a>
+        </div>
+        <h4> Maze Learn</h4>
+      </div>
+
+      <div class="row">
+        <div class="row-img">
+          <a href="Cognita.html">
+            <img src="Imagenes/Logo4.png">
+          </a>
+        </div>
+        <h4> Cognita</h4>
+      </div>
+
+      <div class="row">
+        <div class="row-img">
+          <a href="Wordle.html">
+            <img src="Imagenes/logo5.png">
+          </a>
+        </div>
+        <h4> Wordle</h4>
+      </div>
+
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+
+  <!-- SLIDER MANUAL -->
+  <section class="main swiper mySwiper">
+    <div class="wrapper swiper-wrapper">
+      <div class="slide swiper-slide">
+        <img src="Imagenes/Fondo1.jpg" alt="" class="image" />
+        <div class="image-data">
+          <span class="text">Disfruta del aprendizaje con Diversión</span>
+          <h2>
+            Aplica en nuestro<br />
+            Maze Learn!
+          </h2>
+          <a href="MazeLearn.html" class="button">Inicia</a>
+        </div>
+      </div>
+      <div class="slide swiper-slide">
+        <img src="Imagenes/Fondo2.png" alt="" class="image" />
+        <div class="image-data">
+          <span class="text">Realmente nos interesa que aprendas</span>
+          <h2>
+            Descubre un nuevo mundo <br />
+            Traduciendo palabras
+          </h2>
+          <a href="Transloom.html" class="button">Transloom</a>
+        </div>
+      </div>
+      <div class="slide swiper-slide">
+        <img src="Imagenes/Fondo6.png" alt="" class="image" />
+        <div class="image-data">
+          <span class="text">Haciendo que tus sueños se cumplan</span>
+          <h2>
+            Acierta las palabras<br />
+            Con Spell Snap
+          </h2>
+          <a href="Wordle.html" class="button">Iniciar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-button-next nav-btn"></div>
+    <div class="swiper-button-prev nav-btn"></div>
+    <div class="swiper-pagination"></div>
+  </section>
+
+  <!-- Swiper JS -->
+  <script src="JS/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+  <!-- Nuestros Paquetes-->
+  <main id="paquetes" class="products container">
+    <img class="bg" src="imagenes/stock_daniela.svg" alt="">
+    <img class="bg-2" src="Imagenes/png_2.svg" alt="">
+
+    <h2> Nuestros Paquetes </h2>
+    <p> Además de la creación de nuestros propios videojuegos, ofrecemos distintos servicios
+      para servir de apoyo en tu proximo proyecto.
+    </p>
+
+    <div class="product-info">
+
+      <div class="product">
+
+        <h3>Aprendo Contigo </h3>
+        <p>
+          incluye todos juegos y todas sus características principales. Es el nivel de entrada
+          para los padres que deseen experimentar los juego en su forma completa.
+        </p>
+        <span> $80.00</span>
+      </div>
+
+      <div class="product">
+
+        <h3>Institucional </h3>
+        <p>
+          incluye alrededor de 30 accesos a un servidor privado dentro de uno de los juegos de
+          su elección. Así mismo incluye todas las características, una plataforma sin anuncios
+          y free trials de todos los juegos de Joy por dos semanas iniciando cuando el usuario decida.
+        </p>
+        <span> $300.00</span>
+      </div>
+
+      <div class="product">
+
+        <h3>Institucional Plus </h3>
+        <p>
+          Este paquete vendría siendo lo mismo que el institucional estándar pero puede abarcar
+          hasta 100 usuarios, asimismo tiene acceso a todos los juegos de la empresa.
+        </p>
+        <span> $50.00</span>
+      </div>
+
+
+    </div>
+  </main>
+
+
+
+  <br>
+  <br>
+  <br>
+
+  <!-- CONTADOR DE LOGROS -->
+
+  <section class="contenedor">
+    <div class="title">
+      <h2> Reconocimientos </h2>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="cont">
+      <div class="recuadro">
+        <i class="fa-solid fa-puzzle-piece"></i>
+        <span class="num" data-val="400">000</span>
+        <span class="text">Niños con Joy</span>
+      </div>
+      <div class="recuadro">
+        <i class="fas fa-smile-beam"></i>
+        <span class="num" data-val="340">000</span>
+        <span class="text">Clientes Felices</span>
+      </div>
+      <div class="recuadro">
+        <i class="fa-solid fa-laptop"></i>
+        <span class="num" data-val="5">000</span>
+        <span class="text">Aplicaciones Educativas</span>
+      </div>
+      <div class="recuadro">
+        <i class="fas fa-star"></i>
+        <span class="num" data-val="280">000</span>
+        <span class="text">5 estrellas</span>
+      </div>
+    </div>
+  </section>
+  <!-- Script -->
+  <script src="JS/java.js"></script>
+
+
+  <br>
+  <br>
+  <br>
+
+
+  <!-- TESTIMONIOS -->
+  <div class="title">
+    <h2> Testimonios</h2>
+  </div>
+  <br>
+
+  <div class="Testimonios">
+    <div class="box">
+      <i class="fas fa-quote-left quote"></i>
+      <p>Estos muchachos son trabajadores, siempre estan dispuestos a trabajar y
+        en este proyecto no fue la excepcion, muy orgulloso de ellos, un trabajo
+        excelente.
+      </p>
+      <div class="content">
+        <div class="info">
+          <div class="name">Elison Perez</div>
+          <div class="job">Administrador BD | Maestro</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="image">
+          <img src="Imagenes/Cliente1.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <i class="fas fa-quote-left quote"></i>
+      <p>Un muy buen trabajo realizado por estos chicos, 
+        orgullosa de su esfuerzo y de su entrega en este
+        ultimo proyecto de diciembre.
+      </p>
+      <div class="content">
+        <div class="info">
+          <div class="name">Austria Mota</div>
+          <div class="job">Coordinadora tecnica | Maestra</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <div class="image">
+          <img src="Imagenes/Cliente2.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <i class="fas fa-quote-left  quote"></i>
+      <p>Realmente no tengo palabras para describir
+        a estos muchachos, excelente trabajo cada dia
+        son mejores y dispuestos a mejorar.
+      </p>
+      <div class="content">
+        <div class="info">
+          <div class="name">Karina Salazar</div>
+          <div class="job">Especialista Web | Maestra</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="image">
+          <img src="Imagenes/Cliente3.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <br>
+  <br>
+  <br>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footercont">
+      <div class="fila">
+        <div class="col" id="company">
+          <img src="Imagenes/LOGO.png" alt="" class="logofooter">
+          <p>
+            ¡Bienvenidos a nuestra apasionante empresa de aprendizaje para niños, donde cada día cultivamos la curiosidad y fomentamos el amor por el conocimiento!
+          </p>
+          <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col" id="useful-links">
+          <h3>Links</h3>
+          <div class="links">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Our Policy</a>
+            <a href="#">Help</a>
+          </div>
+        </div>
+
+        <div class="col" id="contact">
+          <h3>Contact</h3>
+          <div class="contact-details">
+            <i class="fa fa-location"></i>
+            <p>FF-42, Procube Avenue, <br> NY, USA</p>
+          </div>
+          <div class="contact-details">
+            <i class="fa fa-phone"></i>
+            <p>+1-8755856858</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
